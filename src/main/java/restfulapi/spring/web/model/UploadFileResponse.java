@@ -1,4 +1,4 @@
-package restfulapi.spring.web.payload;
+package restfulapi.spring.web.model;
 
 import java.util.Objects;
 

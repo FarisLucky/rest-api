@@ -5,9 +5,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
-import restfulapi.spring.web.domain.Employee;
-import restfulapi.spring.web.domain.Order;
-import restfulapi.spring.web.domain.enums.Status;
+import restfulapi.spring.web.entity.Employee;
+import restfulapi.spring.web.entity.Order;
+import restfulapi.spring.web.entity.enums.Status;
 import restfulapi.spring.web.repository.EmployeeRepository;
 import restfulapi.spring.web.repository.OrderRepository;
 

@@ -1,9 +1,9 @@
-package restfulapi.spring.web.payload;
+package restfulapi.spring.web.model;
 
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.RepresentationModelAssembler;
 import restfulapi.spring.web.controller.EmployeeController;
-import restfulapi.spring.web.domain.Employee;
+import restfulapi.spring.web.entity.Employee;
 import org.springframework.stereotype.Component;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;

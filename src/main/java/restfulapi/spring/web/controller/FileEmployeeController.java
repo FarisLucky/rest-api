@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import restfulapi.spring.web.payload.UploadFileResponse;
+import restfulapi.spring.web.model.UploadFileResponse;
 import restfulapi.spring.web.services.FileStorageService;
 
 import javax.servlet.http.HttpServletRequest;

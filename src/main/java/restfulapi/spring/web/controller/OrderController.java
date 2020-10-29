@@ -9,11 +9,11 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import restfulapi.spring.web.domain.Order;
-import restfulapi.spring.web.payload.OrderModelResponse;
+import restfulapi.spring.web.entity.Order;
+import restfulapi.spring.web.model.OrderModelResponse;
 import restfulapi.spring.web.repository.OrderRepository;
 import restfulapi.spring.web.exception.OrderNotFoundException;
-import restfulapi.spring.web.domain.enums.Status;
+import restfulapi.spring.web.entity.enums.Status;
 
 import java.util.List;
 import java.util.stream.Collectors;

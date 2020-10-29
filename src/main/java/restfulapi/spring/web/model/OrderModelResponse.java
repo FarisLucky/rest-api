@@ -1,11 +1,11 @@
-package restfulapi.spring.web.payload;
+package restfulapi.spring.web.model;
 
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.RepresentationModelAssembler;
 import org.springframework.stereotype.Component;
 import restfulapi.spring.web.controller.OrderController;
-import restfulapi.spring.web.domain.Order;
-import restfulapi.spring.web.domain.enums.Status;
+import restfulapi.spring.web.entity.Order;
+import restfulapi.spring.web.entity.enums.Status;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;

@@ -8,12 +8,12 @@ import org.springframework.hateoas.IanaLinkRelations;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import restfulapi.spring.web.domain.Employee;
+import restfulapi.spring.web.entity.Employee;
 import restfulapi.spring.web.exception.EmployeeNotFoundException;
 import restfulapi.spring.web.repository.EmployeeRepository;
 import java.util.List;
 import java.util.stream.Collectors;
-import restfulapi.spring.web.payload.EmployeeModelResponse;
+import restfulapi.spring.web.model.EmployeeModelResponse;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;

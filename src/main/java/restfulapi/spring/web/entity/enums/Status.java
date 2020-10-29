@@ -1,4 +1,4 @@
-package restfulapi.spring.web.domain.enums;
+package restfulapi.spring.web.entity.enums;
 
 public enum Status {
     IN_PROGRESS,

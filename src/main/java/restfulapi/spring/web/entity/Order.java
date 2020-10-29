@@ -1,6 +1,6 @@
-package restfulapi.spring.web.domain;
+package restfulapi.spring.web.entity;
 
-import restfulapi.spring.web.domain.enums.Status;
+import restfulapi.spring.web.entity.enums.Status;
 
 import javax.persistence.*;
 import java.util.Objects;

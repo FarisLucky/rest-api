@@ -1,4 +1,4 @@
-package restfulapi.spring.web.domain;
+package restfulapi.spring.web.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

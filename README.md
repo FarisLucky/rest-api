@@ -1,2 +1,2 @@
-# rest-oauth
-Oauth example with Spring boot 2.3
+# rest-api
+Rest example with Spring boot 2.3
